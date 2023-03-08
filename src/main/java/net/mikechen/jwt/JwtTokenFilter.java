@@ -24,7 +24,8 @@ import net.mikechen.user.User;
 public class JwtTokenFilter extends OncePerRequestFilter {
 	@Autowired
 	private JwtTokenUtil jwtUtil;
-
+   
+	
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, 
 				HttpServletResponse response, FilterChain filterChain)
